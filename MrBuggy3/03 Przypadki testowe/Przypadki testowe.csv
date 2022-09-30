@@ -1,0 +1,45 @@
+TCID,ID wymagania,Tytuł,Warunki wstępne,Opis kroków,Oczekiwany rezultat
+1,5,Istnieje możliwość wyświetlenia 15 zadań.,"Uruchomiona aplikacja z utworzonym kontem, zalogowany użytkownik.",1. Kliknij przycisk „Rozpocznij”.,Wyświetla się pierwsze zadanie.
+,,,,2. Kliknij przycisk „Następne”.,Pojawia się drugie zadanie.
+,,,,3. Kliknij przycisk „Następne”.,Pojawia się trzecie zadanie.
+,,,,4. Kliknij przycisk „następne” jeszcze 12 razy.,Pojawia się 15 zadanie. Wszystkie zadania wyświatlają się prawidłowo.
+2,12,Pole “Czas” - wyświetla czas do zakończenia rundy (format: gg:mm:ss).,"Uruchomiona aplikacja z utworzonem kontem, kliknij ""Zaloguj"".",1. Wprowadź login i hasło.,"Użytkownik zostaje zalogowany, pole ""Czas"" zaczyna odliczać pozostały czas w formacie gg:mm:ss do końca aktywnej rundy."
+3,13,"Sprawdzanie działania pola ""Opis zadania"".",Uruchomiona aplikacja z utworzonym kontem.,"1. Wprowadź login i hasło, klikjnij ""Zaloguj"".",Użytkownik zostaje zalogowany
+,,,,2. Kliknij przycisk „Rozpocznij”.,"Wyświetla się pierwsze zadanie, po prawej stronie nad numerami zadań wyświatla się opis zadania."
+,,,,3. Kliknij przycisk „Następne”.,"Wyświatla się drugie zadanie, po prawej stronie nad numerami zadań wyświatla się opis zadania."
+,,,,4. Kliknij przycisk „Następne”.,"Pojawia się trzecie zadanie, po prawej stronie nad numerami zadań wyświatla się opis zadania."
+,,,,5. Kliknij przycisk „następne” jeszcze 21 razy.,"Pojawia się 24 zadanie, we wszystkich zadaniach po prawej stronie nad numerami zadań wyświatlają się opisy zadań."
+4,14,"Sprawdzenie funkcjonalności pola ""Lista zadań"".","Uruchomiona aplikacja z utworzonym kontem, zalogowany użytkownik.","1. Kliknij w pole ""Lista zadań"".",Rozwija się lista zadań.
+,,,,2. Wybierz losowo jedno zadanie.,Zadanie się otwiera.
+,,,,3. Wybierz losowo drugie zadanie.,Zadanie się otwiera.
+,,,,4. Wybierz losowo trzecie zadanie.,Zadanie się otwiera.
+5,16,"Sprawdzenie działania przycisków ""Następne"" i ""Poprzednie"".","Uruchomiona aplikacja z utworzonym kontem, zalogowany użytkownik.",1. Kliknij przycisk „Rozpocznij”.,Wyświetla się pierwsze zadanie.
+,,,,2. Kliknij przycisk „Następne”.,Wyświatla się drugie zadanie.
+,,,,3. Kliknij przycisk „Następne”.,Pojawia się trzecie zadanie.
+,,,,"4. Kliknij przycisk ""Poprzednie"".",Wracam do drugiego zadania.
+,,,,"5. Kliknij przycisk ""Poprzednie"".",Wracam do pierwszego zadania.
+6,18,Zakończenie wprowadzania zadań.,"Uruchomiona wcześniej aplikacja, zalogowany uzytkownik, wypełnione wszytkie zadania.","1. Kliknij przycisk ""Zakończ"".","Wyświetla się komunikat potwierdzający chęć zakończenia zadań z przyciskami ""Tak"" lub ""Nie""."
+,,,,"2. Wybierz przycisk ""Nie"".",Powrót do rozwiązywania zadań.
+,,,,"3. Ponownie kliknij przycisk ""Zakończ"".","Wyświetla się komunikat potwierdzający chęć zakończenia zadań z przyciskami ""Tak"" lub ""Nie""."
+,,,,"4. Wybierz przycisk ""Tak"".","Użytkownik kończy wprowadzanie zadań, a zadania zostają przesłane do oceny."
+7,20,"Sprawdzenie czy komunikaty, informacje oraz nazwy klawiszy w interfejsie graficznym są w języku polskim.","Uruchomiona aplikacja z utworzonym kontem, zalogowany użytkownik.","1. Sprawdź nazwy przycisków po prawej stronie w ""Menu bocznym"" czy są w języku polskim.","Przyciski w ""Menu bocznym"" są w języku polskim."
+,,,,"2. Klikjni w przycisk ""Zgłoś defekt"".",Wyświetla się lista możliwych defektów - wszytkie w języku polskim.
+,,,,"3. Kliknij w ""?"" w lewym dolnym rogu aplikacji.",Wyświetlają się podpisy pól i przycisków - wszytkie w języku polskim.
+,,,,"4. Kliknij w ""i"" w lewym dolnym rogu aplikacji.",Wyświetla się ekran z informacjami na temat aplikacji i jej autorów - w języku polskim.
+,,,,5. Kliknij losowo w któryś numer zadania np. zadanie nr 5.,Opis zadania i jego treść są w języku polskim.
+8,21,Sprawdzenie czy “Menu boczne” jest umiejscowione po prawej stronie okna aplikacji,"Uruchomiona aplikacja z utworzonym kontem, zalogowany użytkownik.","1. Sprawdź gdzie jest ""Menu boczne"".",Menu boczne znajduje się po prawej stronie.
+9,22,Sprawdzenie czy okno aplikacji mieści się się w całości na ekranie monitora o rozdzielczości 1024x768.,"Uruchomiona aplikacja z utworzonym kontem, zalogowany użytkownik, włączone okno ustawień ekranu swojego komutera.",1. Ustaw rozdzielczość swojego ekranu na 1024x768.,Aplikacja działa prawidłowo.
+10,23,Sprawczenie czy okno aplikacji zawiera ikonę MrBuggy3.,"Uruchomiona aplikacja z utworzonym kontem, zalogowany użytkownik.",1. Sprawdź czy w oknie aplikacji znajduje się ikona MrBuggy3.,Ikona aplikacji MrBuggy3 znajduje się w lewym górnym rogu okna aplikacji.
+11,24,Tworzenie loginu we właściwym formacie.,"Uruchomiona aplikacja, kliknij ""Rejestracja"".","1. Wprowadź login składający się z 4-8 znaków, musi zawierać jedną małą literę, jedną wielką literę, jedną cyfrę i jeden znak specjalny.",Brak komuniaktu o błędzie.
+12,24,"Próba utworzenia loginu w formacie z właściwą ilością znaków, składajacego się z samych liter.","Uruchomiona aplikacja, kliknij ""Rejestracja"".",1. Wprowadź login składający się z 4-8 liter.,Komunikat o błędzie.
+13,24,"Próba utworzenia loginu w formacie z niewłaściwą ilością znaków, składająca się z dużych i małych liter, cyfr i znaków specjalnych.","Uruchomiona aplikacja, kliknij ""Rejestracja"".","1.Wprowadź login składający się z mniej niż 4 lub więcej niż 8 znaków, musi zawierać jedną małą literę, jedną wielką literę, jedną cyfrę i znak scecjalny.",Komunikat o błędzie.
+14,26,Tworzenie hasła we właściwym formacie.,"Uruchomiona aplikacja, kliknij ""Rejestracja"".",1. Wprowadź poprawny login.,"Pole ""Login"" zostaje uzupełnione."
+,,,,"2. Wprowadź hasło składające się z minimum 20 znaków, w tym mała i wielka litera, cyfra oraz znak specjalny.","Konto zostało utworzone, brak informacji o błędzie."
+15,26,"Próba utworzenia hasła składającego się z mniej niż 20 znaków, w tym mała i wielka litera, cyfra oraz znak specjalny.","Uruchomiona aplikacja, kliknij ""Rejestracja"".",1. Wprowadź poprawny login.,"Pole ""Login"" zostaje uzupełnione."
+,,,,"2. Wprowadź hasło składające się z różnej wielkości liter ,cyfr i znaków specjalnych, nieprzekraczające 20 znaków.",Komunikat o błędzie.
+16,26,"Próba utworzenia hasła składającego się z minimum 20 znaków, w tym mała i wielka litera bez znaków speclanych i cyfr.","Uruchomiona aplikacja, kliknij ""Rejestracja"".",1. Wprowadź poprawny login.,"Pole ""Login"" zostaje uzupełnione."
+,,,,"2. Wprowadź hasło składające się  z minimum 20 znaków, w tym mała i wielka litera bez znaków speclanych i cyfr.",Komunikat o błędzie.
+17,29,Zablokowanie konta po trzykrotnym wpisaniu błędnego hasła.,"Uruchomiona aplikacja z utworzonem kontem, kliknij ""Zaloguj"".",1. Wprowadź login.,"Pole ""Login"" zostaje uzupełnione."
+,,,,2. Wprowadź hasło zawierające błąd po raz pierwszy.,Wyświetla się komunikat o wpisaniu błędnego hasła.
+,,,,3. Wprowadź hasło zawierające błąd po raz drugi.,Wyświatla się komunikat o wpisaniu błędnego hasła.
+,,,,4. Wprowadź hasło zawierające błąd po raz trzeci.,Wyświetala się komunikat o trzykrotnym wpisaniu błędnego hasła z informacją o zablokowaniu konta.
