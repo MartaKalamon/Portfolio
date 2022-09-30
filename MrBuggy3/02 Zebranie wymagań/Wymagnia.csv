@@ -1,0 +1,29 @@
+ID,Str.,Wymaganie w oparciu o specyfikację
+1,6,"3 wersje aplikacji klienckiej: demonstarcyjna, końcowa, publiczna."
+2,7,Podział na aplikację kliencką i serwerową.
+3,8,"Tryby: w kategorii drużynowej: kapitan i członek, a w kategorii indywidualnej: zawodnik."
+4,8,W każdym zadaniu ma być dokładnie jeden defekt.
+5,8,Wersja publiczna zawiera nie mniej niż 15 zadań.
+6,8,Nie można zmienić trybu pracy w trakcie jej działania.
+7,8,W trybie członka drużyny możliwość raportowania defektów jest zablokowana.
+8,9,Kolejność zadań wyświetlanych w części klienckiej powinna być losowa.
+9,9,W przypadku utraty połączenia sieciowego użytkownik powinien mieć dalszą możliwość wykonywania wszystkich czynności w aplikacji.
+10,9,"Kopia zapaspwa ma być tworzona po kązdoroazowym kliklnięciu w przycisk ""Zaraportuj defekt"". Po kliknięciu tego przycisku tworzona jest kopia zapasowa z aktualnym stanem aplikacji (w celu zachowania postępu użytkownika w przypadku awarii) oraz wysyłany jest raport defektu do części serwerowej aplikacji."
+12,10,Pole “Czas” - wyświetla czas do zakończenia rundy (format: gg:mm:ss).
+13,10,Pole “Opis zadania” - zawiera ogólną informację na temat zadania wyświetlonego w polu “Zadania” wraz z ilością punktów za dane zadanie.
+14,10,Pole “Lista zadań” - umożliwia nawigację pomiędzy zadaniami.
+15,10,"Zadania bez udzielonej odpowiedzi, z udzieloną odpowiedzią i aktualnie wyświetlone muszą się odznaczać innym kolorem."
+16,10,Przyciski nawigacyjne - “Następne” i “Poprzednie” umożliwiają przeniesienie się do odpowiednio następnego i poprzedniego zadania.
+17,10,Przycisk “Zaraportuj defekt” - pozwala na zaraportowanie defektu aktualnie wyświetlanego w oknie “Zadania”.
+18,10,Przycisk “Zakończ” - zakończenie pracy nad wszystkimi zadaniami i wysłanie odpowiedzi do oceny. Nie da się cofnąć tej czynności. Można ją wykonać tylko raz.
+19,10,Przycisk “Zakończ” - aby uniknąć pomyłek użytkownik musi potwierdzić chęć wykonania tej czynności.
+20,10,"Wszystkie komunikaty, informacje oraz nazwy klawiszy w interfejsie graficznym muszą być w języku polskim."
+21,10,“Menu boczne” ma być ułożone po prawej stronie.
+22,11,Okno aplikacji powinno mieścić się w całości na ekranie monitora o rozdzielczości 1024x768.
+23,11,W oknie aplikacji musi się znaleźć ikona MrBuggy 3.
+24,12,"Login musi składać się z 4 do 8 znaków i zawierać przynajmniej jedną małą literę, jedną wielką literę, jedną cyfrę i jeden znak specjalny."
+25,12,Login nie może zawierać białych znaków ani polskich znaków diakrytycznych.
+26,12,"Hasło musi składać się z co najmniej 20 znaków i zawierać przynajmniej jedną małą literę, jedną wielką literę, jedną cyfrę, jeden znak specjalny"
+27,13,Nie jest wymagany instalator aplikacj.
+28,13,"MrBuggy 3 ma być aplikacją przenośną, która ma być dostarczona w postaci archiwum “zip”."
+29,13,Konto musi zostać zablokowane po 3 krotnym wpisaniu błędnego hasła.
